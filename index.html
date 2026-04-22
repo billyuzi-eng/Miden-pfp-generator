@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miden PFP Generator 🚀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Miden PFP Generator 🚀</h1>
+    <p>Upload your image to generate a Miden-style astronaut PFP</p>
+
+    <input type="file" id="upload" accept="image/*">
+
+    <div class="preview-box">
+      <img id="preview" />
+      <div class="overlay"></div>
+    </div>
+
+    <button onclick="generatePFP()">Generate PFP</button>
+    <button onclick="downloadPFP()">Download</button>
+
+    <p id="status"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
